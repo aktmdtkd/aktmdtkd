@@ -9,7 +9,7 @@ Hello, I'm Masik.
 ## Developer for Fun
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aktmdtkd&show_icons=true&count_private=true&include_all_commits=true&theme=radical&border_radius=20px&border_color=FF3B3B&custom_title=All%20My%20Stats%20in%20a%20Nutshell" alt="aktmdtkd's GitHub Stats" align="center"></img>
+  <img src="https://github-readme-stats.vercel.app/api?username=aktmdtkd&show_icons=true&theme=radical" alt="aktmdtkd's GitHub Stats">
 <table align="center">
   <tr>
     <td align="center" width="50%">
