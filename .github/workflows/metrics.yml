@@ -42,7 +42,7 @@ jobs:
           plugin_followup: yes
           plugin_followup_indepth: yes
           token: ${{ secrets.METRICS_TOKEN }}
-      - uses: lowlighter/metrics@main
+      - uses: lowlighter/metrics@latest
         with:
           base: ""
           filename: .github/src/metrics.plugin.languages.details.svg
@@ -52,7 +52,7 @@ jobs:
           plugin_languages_details: lines, percentage
           plugin_languages_recent_days: 31
           token: ${{ secrets.METRICS_TOKEN }}
-      - uses: lowlighter/metrics@main
+      - uses: lowlighter/metrics@latest
         with:
           base: ""
           filename: .github/src/metrics.plugin.languages.details2.svg
@@ -89,7 +89,7 @@ jobs:
           plugin_starlists_limit: 3
           plugin_starlists_limit_repositories: 3
           token: ${{ secrets.METRICS_TOKEN }}
-      - uses: lowlighter/metrics@main
+      - uses: lowlighter/metrics@latest
         with: 
           filename: .github/src/metrics.plugin.achievements.compact.svg
           base: ""
@@ -101,7 +101,7 @@ jobs:
           #  scripter, packager, explorer, infographile, manager
           plugin_achievements_display: detailed
           token: ${{ secrets.METRICS_TOKEN }}
-      - uses: lowlighter/metrics@main
+      - uses: lowlighter/metrics@latest
         with:
           filename: .github/src/metrics.plugin.skyline.svg
           base: ""
