@@ -4,7 +4,8 @@
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Jua&size=35&pause=1000&color=FF69B4&background=FFFFFF00&center=true&vCenter=true&width=600&height=100&lines=안녕하십니까.+마식입니다.;Hello,+I'm+Masik." alt="Typing SVG" />
+  <img src="https://img.shields.io/badge/안녕하십니까._마식입니다.-FF69B4?style=for-the-badge&logoColor=white" height="40">
+  <img src="https://img.shields.io/badge/Hello,_I'm_Masik.-FF69B4?style=for-the-badge&logoColor=white" height="40">
 </p>
 
 ## Developer for Fun
