@@ -4,9 +4,9 @@
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Jua&size=50&duration=1&pause=0&color=FF69B4&center=true&vCenter=true&width=600&height=80&lines=%EC%95%88%EB%85%95%ED%95%98%EC%8B%AD%EB%8B%88%EA%B9%8C.+%EB%A7%88%EC%8B%9D%EC%9E%85%EB%8B%88%EB%8B%A4." />
+  <img src="https://readme-typing-svg.demolab.com?font=Jua&size=50&duration=5&pause=2&color=FF69B4&center=true&vCenter=true&width=600&height=80&lines=%EC%95%88%EB%85%95%ED%95%98%EC%8B%AD%EB%8B%88%EA%B9%8C.+%EB%A7%88%EC%8B%9D%EC%9E%85%EB%8B%88%EB%8B%A4." />
   <br>
-  <img src="https://readme-typing-svg.demolab.com?font=Jua&size=35&duration=1&pause=0&color=FF69B4&center=true&vCenter=true&width=600&height=60&lines=Hello,+I'm+Masik." />
+  <img src="https://readme-typing-svg.demolab.com?font=Jua&size=35&duration=5&pause=2&color=FF69B4&center=true&vCenter=true&width=600&height=60&lines=Hello,+I'm+Masik." />
 </p>
 
 ## Developer for Fun
