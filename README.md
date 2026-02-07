@@ -8,8 +8,6 @@ Hello, I'm Masik.
 
 ## Developer for Fun
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aktmdtkd&show_icons=true&theme=radical" alt="aktmdtkd's GitHub Stats">
 <table align="center">
   <tr>
     <td align="center" width="50%">
@@ -38,7 +36,17 @@ Hello, I'm Masik.
       <!-- <img src=".github/src/metrics.plugin.languages.details.svg" alt="Languages most used"></img> -->
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aktmdtkd&layout=compact&langs_count=10&theme=transparent" alt="Languages most used"></img>
       <!-- <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=aktmdtkd&theme=transparent" alt="Repos per Languages"></img> -->
-    </td
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <b>Overall Activity</b><br>
+      <img src=".github/src/metrics.base.svg" alt="Base Activity" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <b>Code Inventory (Byte Size %)</b><br>
+      <img src=".github/src/metrics.plugin.languages.details.svg" alt="Languages by Bytes" width="100%">
+    </td>
   </tr>
   <tr>
     <td align="center">

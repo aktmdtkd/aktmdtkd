@@ -137,3 +137,15 @@ jobs:
           plugin_calendar: yes
           plugin_calendar_limit: 0
           token: ${{ secrets.METRICS_TOKEN }}
+          # 코드 분량(Bytes) 기준 언어 점유율 통계
+          
+      - uses: lowlighter/metrics@latest
+        with:
+          base: ""
+          filename: .github/src/metrics.plugin.languages.details.svg
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage # 바이트 크기와 퍼센트 표시
+          plugin_languages_sections: most-used # 전체 코드 베이스 기준
+          plugin_languages_indepth: no # 안정성을 위해 no 유지
+          plugin_languages_limit: 8     # 상위 8개 언어 표시
+          token: ${{ secrets.METRICS_TOKEN }}
