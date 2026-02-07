@@ -3,9 +3,9 @@
 </a>
 
 
-</br>
-## 안녕하십니까. 마식입니다.</br>
-## Hello, I'm Masik.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Jua&size=35&pause=1000&color=FF69B4&background=FFFFFF00&center=true&vCenter=true&width=600&height=100&lines=안녕하십니까.+마식입니다.;Hello,+I'm+Masik." alt="Typing SVG" />
+</p>
 
 ## Developer for Fun
 
