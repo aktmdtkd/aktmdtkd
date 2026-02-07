@@ -4,9 +4,9 @@
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/안녕하십니까._마식입니다.-FF69B4?style=for-the-badge&logoColor=white" height="40" font-size="20">
-  </br>
-  <img src="https://img.shields.io/badge/Hello,_I'm_Masik.-FF69B4?style=for-the-badge&logoColor=white" height="40" font-size="20">
+  <img src="https://readme-typing-svg.demolab.com?font=Jua&size=50&duration=1&pause=0&color=FF69B4&center=true&vCenter=true&width=600&height=70&lines=안녕하십니까.+마식입니다." />
+  <br>
+  <img src="https://readme-typing-svg.demolab.com?font=Jua&size=35&duration=1&pause=0&color=FF69B4&center=true&vCenter=true&width=600&height=50&lines=Hello,+I'm+Masik." />
 </p>
 
 ## Developer for Fun
