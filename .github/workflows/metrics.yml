@@ -6,7 +6,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      # 기본 정보 및 활동 요약
+      # 1. 기본 정보 및 활동 요약
       - uses: lowlighter/metrics@latest
         with:
           filename: .github/src/metrics.base.svg
@@ -17,7 +17,7 @@ jobs:
           base_indepth: yes
           token: ${{ secrets.METRICS_TOKEN }}
 
-      # 연간 달력
+      # 2. 연간 달력
       - uses: lowlighter/metrics@latest
         with:
           filename: .github/src/metrics.plugin.isocalendar.svg
@@ -26,7 +26,7 @@ jobs:
           plugin_isocalendar_duration: full-year
           token: ${{ secrets.METRICS_TOKEN }}
 
-      # 코딩 습관 (시간대 서울로 수정)
+      # 3. 코딩 습관 (시간대: 서울)
       - uses: lowlighter/metrics@latest
         with:
           filename: .github/src/metrics.plugin.habits.charts.svg
@@ -37,10 +37,10 @@ jobs:
           plugin_habits_facts: no
           plugin_habits_charts: yes
           plugin_habits_trim: no
-          config_timezone: Asia/Seoul # 한국 시간으로 변경
+          config_timezone: Asia/Seoul
           token: ${{ secrets.METRICS_TOKEN }}
 
-      # 팔로우업 상태
+      # 4. 팔로우업 상태
       - uses: lowlighter/metrics@latest
         with:
           filename: .github/src/metrics.plugin.followup.user.svg
@@ -49,30 +49,29 @@ jobs:
           plugin_followup_indepth: yes
           token: ${{ secrets.METRICS_TOKEN }}
 
-      # 사용 언어 상세 (에러 방지를 위해 indepth를 no로 설정)
+      # 5. 언어 상세 1 (에러 방지를 위해 most-used 섹션만 사용)
       - uses: lowlighter/metrics@latest
         with:
           base: ""
           filename: .github/src/metrics.plugin.languages.details.svg
           plugin_languages: yes
-          plugin_languages_indepth: no # 에러 방지를 위해 수정
-          plugin_languages_sections: recently-used
+          plugin_languages_indepth: no
+          plugin_languages_sections: most-used
           plugin_languages_details: lines, percentage
-          plugin_languages_recent_days: 31
           token: ${{ secrets.METRICS_TOKEN }}
 
-      # 최다 사용 언어 (에러 방지를 위해 indepth를 no로 설정)
+      # 6. 언어 상세 2 (전체 기간 최다 사용 언어)
       - uses: lowlighter/metrics@latest
         with:
           base: ""
           filename: .github/src/metrics.plugin.languages.details2.svg
           plugin_languages: yes
-          plugin_languages_indepth: no # 에러 방지를 위해 수정
+          plugin_languages_indepth: no
           plugin_languages_details: lines, bytes-size, percentage
           plugin_languages_sections: most-used
           token: ${{ secrets.METRICS_TOKEN }}
 
-      # 리액션 통계
+      # 7. 리액션 통계
       - uses: lowlighter/metrics@latest
         with:
           filename: .github/src/metrics.plugin.reactions.svg
@@ -81,7 +80,7 @@ jobs:
           plugin_reactions_details: percentage
           token: ${{ secrets.METRICS_TOKEN }}
 
-      # 레포지토리 기여자/팔로워들
+      # 8. 레포지토리 관련 인원 (팔로워 등)
       - uses: lowlighter/metrics@latest
         with:
           filename: .github/src/metrics.plugin.people.repository.svg
@@ -90,7 +89,7 @@ jobs:
           plugin_people_types: followers, contributors, stargazers, watchers
           token: ${{ secrets.METRICS_TOKEN }}
 
-      # 스타 리스트 언어 통계
+      # 9. 스타 리스트 언어 통계
       - uses: lowlighter/metrics@latest
         with: 
           filename: .github/src/metrics.plugin.starlists.languages.svg
@@ -105,7 +104,7 @@ jobs:
           plugin_starlists_limit_repositories: 3
           token: ${{ secrets.METRICS_TOKEN }}
 
-      # 업적 (컴팩트 표시)
+      # 10. 업적 (상세 표시)
       - uses: lowlighter/metrics@latest
         with: 
           filename: .github/src/metrics.plugin.achievements.compact.svg
@@ -116,7 +115,7 @@ jobs:
           plugin_achievements_display: detailed
           token: ${{ secrets.METRICS_TOKEN }}
 
-      # 3D 스카이라인 (2023년 기준 유지)
+      # 11. 3D 스카이라인 (2023년 기준)
       - uses: lowlighter/metrics@latest
         with:
           filename: .github/src/metrics.plugin.skyline.svg
@@ -128,7 +127,7 @@ jobs:
           plugin_skyline_compatibility: yes
           token: ${{ secrets.METRICS_TOKEN }}
 
-      # 전체 커밋 히스토리 달력
+      # 12. 전체 커밋 달력
       - uses: lowlighter/metrics@latest
         with:
           filename: .github/src/metrics.plugin.calendar.full.svg
