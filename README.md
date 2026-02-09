@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Jua&size=45&duration=2000&pause=1000&color=FF69B4&center=true&vCenter=true&width=600&height=80&lines=%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94%2C+%EB%A7%88%EC%8B%9D%EC%9E%85%EB%8B%88%EB%8B%A4.;Hello,+I'm+Masik." alt="Greeting Typing SVG" />
   <br>
-  <img src="https://readme-typing-svg.demolab.com?font=Jua&size=35&duration=5000&pause=10000000&color=FF69B4&center=true&vCenter=true&width=600&height=60&lines=%E3%82%86%E3%82%8B%E3%82%86%E3%82%8A%E5%A4%A7%E5%A5%BD%E3%81%8D!" alt="Anime Quote Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Kosugi+Maru&size=35&duration=5000&pause=10000000&color=FF69B4&center=true&vCenter=true&width=600&height=60&lines=%E3%82%86%E3%82%8B%E3%82%86%E3%82%8A%E5%A4%A7%E5%A5%BD%E3%81%8D!" alt="Anime Quote Typing SVG" />
 </p>
 
 C/C++과 ROS2를 사용하여 로봇 경로 계획을 메인으로 연구하는 대학원생 입니다.</br>
